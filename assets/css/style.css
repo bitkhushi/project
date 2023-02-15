@@ -86,12 +86,21 @@ img {
 }
 
 /**************header***********/
+header {
+    /* background-color: grey; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    transition: all 0.5s;
+}
+
 header .container {
-    background-color: grey;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 5.1rem;
+    padding-top: 2rem 0;
+
 }
 
 header nav {
@@ -111,7 +120,7 @@ header nav ul li {
 header .search {
     color: #fff;
     font-size: 1.8rem;
-     padding: 3.6rem; 
+    padding: 3.6rem;
 }
 
 header nav ul li a {
@@ -121,9 +130,57 @@ header nav ul li a {
     font-size: 1.8rem;
     padding-left: 1.5rem;
 
+
+}
+
+.dark-header {
+    background-color: #000;
+
 }
 
 
 
-
 /*******************************/
+
+/*************hero*************/
+
+#hero {
+    background: url(../images/n2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero-data {
+    position: absolute;
+    top: 30%;
+    left: 4.63%;
+    right: 54.76%;
+     /* top: 4.68%; */
+    bottom: 91.42%;
+}
+
+.hero-data h1 {
+    font-weight: 700;
+    font-size: 9rem;
+    line-height: 11rem;
+    color: #fff;
+    /* border: 1px solid red; */
+    width: 650px;
+    
+    
+}
+
+.hero-data p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    color: #CFCFCF;
+    left: 4.63%;
+    right: 66.27%;
+    top: 9.27%;
+    bottom: 89.03%;
+}
+
+/******************************/

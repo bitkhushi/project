@@ -93,6 +93,7 @@ header {
     left: 0;
     position: fixed;
     transition: all 0.5s;
+    z-index: 999;
 }
 
 header .container {
@@ -152,6 +153,15 @@ header nav ul li a {
     background-size: cover;
 }
 
+#hero p{
+    color: #CFCFCF;
+}
+
+#hero span {
+    color: white;
+}
+
+
 .hero-data {
     position: absolute;
     top: 30%;
@@ -168,6 +178,7 @@ header nav ul li a {
     color: #fff;
     /* border: 1px solid red; */
     width: 650px;
+
     
     
 }
@@ -177,10 +188,113 @@ header nav ul li a {
     font-size: 1.8rem;
     line-height: 3.6rem;
     color: #CFCFCF;
-    left: 4.63%;
+    /* left: 4.63%;
     right: 66.27%;
     top: 9.27%;
-    bottom: 89.03%;
+    bottom: 89.03%; */
+    margin-top: 40px;
 }
+
+#hero .search {
+    margin-top: 30px;
+    width: 736px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 40px;
+
+}
+
+#hero .search_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    
+}
+
+
+#hero button {
+    width: 161px;
+    height: 56.87px;  
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+}
+
+.search_data select {
+    border: none;
+    font-size: 20px; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/******************************/
+
+/**********explore*************/
+#explore{
+    margin-top: 102px;
+}
+#explore .explore_data h1{
+   
+    text-align: center;
+    font-size: 60px;
+    line-height: 70px;
+}
+#explore .explore_data p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+    color: #878787;
+}
+
+#explore .explore_images{
+    display: flex;
+    margin-top: 50px;
+}
+
+#explore .explore_images img {
+    width: 444px;
+    height: 361px;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px;
+}
+
+.prevbtn{
+    background-color: #878787;
+    width: 40px;
+    height: 40px;
+    border-radius: 9px;
+    /* padding: 20px; */
+}
+
+.prevbtn i {
+    padding: 12px;
+    font-size: 20px;
+    
+}
+
+.nextbtn{
+    background-color: #878787;
+    width: 40px;
+    height: 40px;
+    border-radius: 9px;
+    /* padding: 20px; */
+}
+
+.nextbtn i {
+    padding: 12px;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
 
 /******************************/

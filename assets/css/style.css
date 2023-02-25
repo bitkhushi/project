@@ -236,7 +236,7 @@ header nav ul li a {
 
 /**********explore*************/
 #explore {
-    margin-top: 102px;
+    margin-top: 178px;
 }
 
 #explore .explore_data h1 {
@@ -247,20 +247,79 @@ header nav ul li a {
 }
 
 #explore .explore_data p {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 36px;
     color: #878787;
 }
 
+.exploreimage_data h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000000;
+
+}
+
+.exploreimage_data p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #555555;
+}
+
+.explore-circle {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.14);
+    top: -5rem;
+    right: 3rem;
+}
+.exploreimage_data {
+    position: relative;
+
+}
+.explore-circle span {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 126px;
+    text-align: center;
+    color: #000000;
+    
+   
+    display: inline-block;
+}
+.exploreimage_data h2 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #000;
+   margin-top: 22px;
+}
+.exploreimage_data p{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #878787;
+}
+.explore_data .explore-circle {
+    font-size: 50px;
+}
 
 .explore_slider .swiper-wrapper .swiper-slide .exploreimage img {
     width: 444px;
     height: 361px;
-    object-fit: cover;
-    object-position: center;
-    margin: 10px;
+    /* object-fit: cover;
+    object-position: center; */
+    /* margin: 10px; */
 }
 
 
@@ -278,6 +337,7 @@ header nav ul li a {
     font-size: 3rem;
     text-align: center;
     line-height: 6.5rem;
+    cursor: pointer;
 }
 
 #explore .explore_btn {
@@ -307,16 +367,18 @@ header nav ul li a {
 
 /**************why****************/
 #why {
-    
+
     background-size: 100% 500px;
     margin-top: 100px;
     background-image: url(../images/bali7.jpg);
     background-repeat: no-repeat;
 }
-.why_images{
+
+.why_images {
     margin: 0 20px;
     /* width: 100px; */
 }
+
 #why .why_data h1 {
     text-align: center;
     font-size: 40px;
@@ -346,6 +408,7 @@ header nav ul li a {
     font-size: 3rem;
     text-align: center;
     line-height: 6.5rem;
+    cursor: pointer;
 }
 
 #why .why_btn {
@@ -445,13 +508,16 @@ header nav ul li a {
 #test {
     margin-top: 200px;
 }
-.client-container {
-    margin-left: ((100% - 137rem) / 2 );
+
+#test .client-container {
+    margin-left: calc((100% - 137rem) / 2);
+    margin: 100px;
 }
+
 .test_data h1 {
     font-weight: 600;
     font-size: 55px;
-   margin-top: 20px;
+    margin-top: 20px;
 
 }
 
@@ -462,13 +528,181 @@ header nav ul li a {
     color: #626262;
 }
 
+.test_btn .prev1,
+.test_btn .next2 {
+    z-index: 9;
+    position: absolute;
+    top: -9rem;
+    width: 7rem;
+    height: 7rem;
+    box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    font-size: 3rem;
+    /* text-align: center; */
+    align-items: center;
+    line-height: 6.5rem;
+    cursor: pointer;
+    display: flex;
+    padding: 20.5px;
+
+}
+
+#test .test_btn {
+    position: relative;
+    margin-top: 100px;
+}
+
+.test_btn .prev1 {
+    /* left: 1440px; */
+    color: #737373;
+    right: 125px;
+}
+
+.test_btn .next2 {
+    right: 3rem;
+    color: #737373;
+}
+
+#test .test_slider .swiper-slide {
+    /*  height: 500px; */
+    background-color: #fff;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+    padding-bottom: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    /* margin-top: -100px; */
+
+
+}
+
+#test .test_slider .swiper-slide {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+#test .test_slider .swiper-slide .test_profile {
+    /* margin: 0 20px; */
+    /* position: relative; */
+
+}
+
+#test .test_slider .swiper-slide .test_profile .test-profile-pic {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#test .test_slider .swiper-slide .test_profile .test-profile-pic img {
+    /* margin-top: -100px; */
+    margin-bottom: -50px;
+}
+
+.profile_data {
+
+    border-radius: 10px;
+    height: 370px;
+    padding: 20px;
+    box-shadow: 2px 2px 7px 2px grey;
+}
+
+.profile_data h4 {
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.profile_data img {
+    margin-top: 50px;
+}
+
+.profile_data p {
+    text-align: center;
+    font-size: 17px;
+    color: #858585;
+    margin-top: -30px;
+
+}
+
+.profile_data h3 {
+    color: #858585;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
 /***********************************************/
 
 
 
+/*******************subcribe*************/
+
+#subcribe {
+    margin: 50px 0;
+    background-image: url(../images/bali1.jpg);
+    background-size: 100%;
+    height: 500px;
+}
+
+#subcribe .sub_data h1 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+    text-align: center;
+
+}
+
+#subcribe .sub_data p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #DFDFDF;
+
+}
+
+.type_email {
+    width: 676px;
+    height: 69px;
+    background-color: #fff;
+    border-radius: 30px;
+    /* margin-top: 80px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+
+.type_email h4 {
+    color: #878787;
+    font-size: 20px;
+    font-weight: 500;
 
 
+}
 
+.type_email .sub-btn {}
+
+
+.type_email .sub-btn button {
+    color: #fff;
+    background-color: black;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 12px;
+
+    text-align: center;
+}
 
 
 
@@ -480,7 +714,3 @@ header nav ul li a {
 
 
 /*********************************/
-
-.ddd {
-    margin: 0 20px;
-}

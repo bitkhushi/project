@@ -144,7 +144,10 @@ header nav ul li a {
 /*******************************/
 
 /*************hero*************/
-
+#hero .container {
+    width: 137rem;
+    margin: 0 auto;
+}
 #hero {
     background: url(../images/n2.jpg);
     width: 100%;
@@ -165,10 +168,6 @@ header nav ul li a {
 .hero-data {
     position: absolute;
     top: 30%;
-    left: 4.63%;
-    right: 54.76%;
-    /* top: 4.68%; */
-    bottom: 91.42%;
 }
 
 .hero-data h1 {
@@ -188,10 +187,7 @@ header nav ul li a {
     font-size: 1.8rem;
     line-height: 3.6rem;
     color: #CFCFCF;
-    /* left: 4.63%;
-    right: 66.27%;
-    top: 9.27%;
-    bottom: 89.03%; */
+    
     margin-top: 40px;
 }
 
@@ -282,41 +278,47 @@ header nav ul li a {
     top: -5rem;
     right: 3rem;
 }
+
 .exploreimage_data {
     position: relative;
 
 }
+
 .explore-circle span {
     font-weight: 400;
     font-size: 72px;
     line-height: 126px;
     text-align: center;
     color: #000000;
-    
-   
+
+
     display: inline-block;
 }
+
 .exploreimage_data h2 {
     font-weight: 600;
     font-size: 2.4rem;
     line-height: 3.6rem;
     color: #000;
-   margin-top: 22px;
+    margin-top: 22px;
 }
-.exploreimage_data p{
+
+.exploreimage_data p {
     margin-top: 10px;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
     color: #878787;
 }
+
 .explore_data .explore-circle {
     font-size: 50px;
 }
 
 .explore_slider .swiper-wrapper .swiper-slide .exploreimage img {
     width: 444px;
-    height: 361px;
+    height: 400px;
+    border-radius: 10px;
     /* object-fit: cover;
     object-position: center; */
     /* margin: 10px; */
@@ -354,10 +356,33 @@ header nav ul li a {
     right: 0;
     color: #737373;
 }
+.exploreimage_data {
+    opacity: 0;
+    padding: 10px;
+}
 
+#explore .swiper-slide:hover .exploreimage_data{
+    opacity: 1;
+    transition: all 0.5px;
+    
+}
+#explore .swiper-wrapper{
+    padding: 20px 0;
+}
+#explore .swiper-slide:hover{
+    /* transform: translateY(-10px); */
+}
+#explore  .swiper-slide:hover {
+   transform: translateY(-10px);
+    box-shadow: 0px 8px 8px 0px grey;
+    border-radius: 10px ;
+}
 
+#explore .swiper-slide:hover .exploreimage img {
+    height: 361px;
+    border-radius:10px 10px 0px 0px ;
+}
 
-.explore_slider .swiper-slide:hover .explore_data {}
 
 /******************************/
 
@@ -375,8 +400,8 @@ header nav ul li a {
 }
 
 .why_images {
-    margin: 0 20px;
-    /* width: 100px; */
+    /* margin: 0 20px; */
+    
 }
 
 #why .why_data h1 {
@@ -431,11 +456,13 @@ header nav ul li a {
     height: 432.75px;
     background-color: #fff;
     border-radius: 10px;
-    margin: 50px;
+    /* margin: 30px; */
     border: black solid 1px;
 
 }
-
+#why .swiper-slide  {
+     /* margin-left: 100px;    */
+}
 .why_slider .swiper-slide .why_img img {
     padding: 25px;
 
@@ -443,7 +470,7 @@ header nav ul li a {
 }
 
 .why_slider .swiper-slide .why_desc {
-    margin-top: 20px;
+    /* margin-top: 20px; */
 
 }
 
@@ -451,17 +478,17 @@ header nav ul li a {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-    padding: 25px;
+     padding: 25px; 
 }
 
 .why_slider .swiper-slide .why_desc p {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    /* margin-top: 5px; */
+    
     color: #858585;
-    padding-left: 25px;
-    margin-bottom: 20px;
+     padding-left: 25px; 
+   
 }
 
 .why_slider .swiper-slide .why_desc a {
@@ -476,11 +503,21 @@ header nav ul li a {
 
 .why_slider .swiper-slide .why_desc a img {
 
-    padding-left: 20px;
+    /* padding-left: 20px; */
 
 }
 
+.why_slider {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
 /******************tour********************/
+/* #tour .container_tour{
+    width: 113.8rem;
+    margin-left: 250px;
+} */
 .tour_data h1 {
     text-align: center;
     font-weight: 600;
@@ -511,7 +548,7 @@ header nav ul li a {
 
 #test .client-container {
     margin-left: calc((100% - 137rem) / 2);
-    margin: 100px;
+    /* margin: 100px; */
 }
 
 .test_data h1 {
@@ -646,9 +683,16 @@ header nav ul li a {
 
 #subcribe {
     margin: 50px 0;
+
     background-image: url(../images/bali1.jpg);
     background-size: 100%;
     height: 500px;
+    background-repeat: no-repeat;
+
+}
+
+#subcribe .sub_data {
+    padding-top: 10px;
 }
 
 #subcribe .sub_data h1 {
@@ -657,6 +701,7 @@ header nav ul li a {
     line-height: 70px;
     color: white;
     text-align: center;
+    margin-top: 100px;
 
 }
 
@@ -666,7 +711,7 @@ header nav ul li a {
     line-height: 34px;
     text-align: center;
     color: #DFDFDF;
-
+    margin-top: 20px;
 }
 
 .type_email {
@@ -674,7 +719,6 @@ header nav ul li a {
     height: 69px;
     background-color: #fff;
     border-radius: 30px;
-    /* margin-top: 80px; */
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
@@ -690,27 +734,131 @@ header nav ul li a {
 
 }
 
-.type_email .sub-btn {}
+.type_email .sub-btn {
+    /* align-items: center; */
+    text-align: center;
+
+}
 
 
 .type_email .sub-btn button {
     color: #fff;
     background-color: black;
-    width: 150px;
-    height: 60px;
+    width: 170px;
+    height: 50px;
     border-radius: 50px;
-    padding: 12px;
-
+    margin-top: -10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
     text-align: center;
+
+}
+
+/*********************************/
+
+/******************traveller**************/
+#top{
+    margin: 8rem 0;
+}
+#top .container {
+    display: flex;
+    justify-content: space-between;
+}
+.traveller{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.traveller_images p{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #878787;
 }
 
 
 
+.contact h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 70px;
+    align-items: center;
+    color: #6C6C6C;
+    /* margin-top: -150px;
+    padding-left:700px;  */
 
+    display: flex; 
+}
 
+.contact ul li {
+    list-style-type: none;
+   
 
+}
 
+.contact ul li a img {
+    margin: 6px;
+}
 
+.contact ul li a {
+    color: #6C6C6C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    display: flex;
+    display: inline-block;
+}
+.contact ul li i {
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+.quik h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 70px;
 
+}
 
-/*********************************/
+.quik ul li {
+    list-style-type: none;
+}
+
+.quik ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    color: #6C6C6C;
+
+}
+
+.follow h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.follow i {
+    font-size: 2rem;
+    padding: 0px 1rem 0 0;
+}
+
+.copyright p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    height: 89px;
+    padding: 55px;
+    background-color: #000;
+}
+
+/*****************************************/

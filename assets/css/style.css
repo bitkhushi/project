@@ -26,7 +26,7 @@ img {
 }
 
 .container {
-    width: 137rem;
+    max-width: 137rem;
     margin: 0 auto;
     /* padding-top: 5.9rem; */
 
@@ -399,10 +399,6 @@ header nav ul li a {
     background-repeat: no-repeat;
 }
 
-.why_images {
-    /* margin: 0 20px; */
-    
-}
 
 #why .why_data h1 {
     text-align: center;
@@ -460,9 +456,7 @@ header nav ul li a {
     border: black solid 1px;
 
 }
-#why .swiper-slide  {
-     /* margin-left: 100px;    */
-}
+
 .why_slider .swiper-slide .why_img img {
     padding: 25px;
 
@@ -501,11 +495,6 @@ header nav ul li a {
 
 }
 
-.why_slider .swiper-slide .why_desc a img {
-
-    /* padding-left: 20px; */
-
-}
  
 .why_slider {
     margin-left: 10rem;
@@ -514,10 +503,7 @@ header nav ul li a {
 
 
 /******************tour********************/
-/* #tour .container_tour{
-    width: 113.8rem;
-    margin-left: 250px;
-} */
+
 .tour_data h1 {
     text-align: center;
     font-weight: 600;
@@ -862,3 +848,63 @@ header nav ul li a {
 }
 
 /*****************************************/
+
+
+
+/* 1366-1440 (laptop) */
+@media screen and (max-width:1440px){
+    .container {
+        max-width: 133rem;
+    }
+    .hero-data h1 {
+        font-size: 7rem;
+        line-height: 8rem;
+    }
+    .hero-data {
+        top: 35%;
+    }
+    #explore {
+        margin: 10.5rem;
+    }
+} 
+/* 1200-1365(Big_ipad) */
+@media screen and (max-width:1365px){
+    .container{
+        max-width: 115rem;
+    }
+    header nav ul li {
+        display: inline-block;
+        padding: 0 2rem;
+    }
+    header nav ul li a {
+        padding-left: 0;
+    } 
+    
+    .explore_slider .swiper-wrapper .swiper-slide .exploreimage img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #explore .swiper-slide:hover .exploreimage img {
+        height: 350px;
+        width: 100%;
+    }
+    
+    #explore .explore_data h1 {
+        text-align: center;
+        font-size: 50px;
+        line-height: 65px;
+    }
+    #test .client-container {
+        margin-left: calc((100% - 115rem) / 2);
+        
+    }
+    
+
+    .explore_btn .prev, .explore_btn .next {
+        width: 5rem;
+        height: 5.2rem;
+         font-size: 2rem; 
+        padding: 0;
+    }
+}

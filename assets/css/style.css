@@ -26,8 +26,9 @@ img {
 }
 
 .container {
-    max-width: 137rem;
+    max-width: 141rem;
     margin: 0 auto;
+    padding: 0 2rem;
     /* padding-top: 5.9rem; */
 
 }
@@ -180,34 +181,47 @@ header nav ul li a {
     color: #fff;
     /* border: 1px solid red; */
     width: 650px;
+    height: 212.05px;
+    font-family: 'Poppins';
 
 
 
 }
+
 
 .hero-data p {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 3.6rem;
     color: #CFCFCF;
-
-    margin-top: 40px;
+    width: 440px;
+    height: 92.53px;
+    margin-top: 37.59px;
+    font-family: 'Poppins';
+}
+#hero .search p {
+    margin-bottom: 200px;
 }
 
 #hero .search {
-    margin-top: 30px;
+    margin-top: 10px;
     width: 736px;
-    height: 80px;
+    height: 78.07px;
     background-color: #fff;
     border-radius: 40px;
+    border: 1px solid #CBCACA;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.3);
+    border-radius: 72px;
+    position: absolute;
 
 }
+
 
 #hero .search_data {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 13px;
+    padding: 10px;
 
 }
 
@@ -219,13 +233,26 @@ header nav ul li a {
     background-color: #000;
     color: #fff;
     font-size: 18px;
+    font-weight: 600;
 }
+
 
 .search_data select {
     border: none;
     font-size: 20px;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    /* or 200% */
+
+
+    color: #9B9B9B;
 }
 
 
@@ -257,7 +284,6 @@ header nav ul li a {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-
     color: #000000;
 
 }
@@ -293,8 +319,6 @@ header nav ul li a {
     line-height: 126px;
     text-align: center;
     color: #000000;
-
-
     display: inline-block;
 }
 
@@ -400,7 +424,7 @@ header nav ul li a {
 /**************why****************/
 #why {
     margin-top: 100px;
-    background-size: 100% 500px;
+    background-size: 100% 450px;
     background-image: url(../images/bali7.jpg);
     background-repeat: no-repeat;
 }
@@ -410,7 +434,7 @@ header nav ul li a {
     text-align: center;
     font-size: 40px;
     line-height: 70px;
-    color:white;
+    color: white;
 }
 
 #why .why_data p {
@@ -468,7 +492,7 @@ header nav ul li a {
     line-height: 27px;
     color: #858585;
     margin-top: 15px;
-
+    /* margin-bottom: 20px; */
 
 }
 
@@ -489,8 +513,12 @@ header nav ul li a {
     height: 430.75px;
     background-color: #fff;
     border-radius: 10px;
-    border: black solid 1px;
-    padding: 25px;
+
+    border: rgb(238, 229, 229) solid 0.1px;
+    /* padding: 25px;  */
+    padding: 4.5rem 0 7rem 2rem;
+    box-shadow: 0px 8px 60px rgba(0, 0, 0, 0.15);
+
 }
 
 
@@ -613,6 +641,10 @@ header nav ul li a {
 #test .test_slider .swiper-slide .test_profile .test-profile-pic img {
     /* margin-top: -100px; */
     margin-bottom: -50px;
+}
+
+.swiper-slide {
+    /* height: 300px; */
 }
 
 .profile_data {
@@ -768,10 +800,7 @@ header nav ul li a {
     font-size: 24px;
     line-height: 70px;
     align-items: center;
-    color: #6C6C6C;
-    /* margin-top: -150px;
-    padding-left:700px;  */
-
+    color: black;
     display: flex;
 }
 
@@ -882,34 +911,46 @@ header nav ul li a {
         margin: 10.5rem;
     }
 
-    */ .explore_btn .prev,
+
+    .explore_btn .prev,
     .explore_btn .next {
         width: 6rem;
-        height: 5.5rem;
-        font-size: 2.5rem;
-        padding-bottom: 26px;
+        height: 5.1rem;
+        font-size: 2rem;
+        line-height: 0;
+        padding: 18px;
+    }
+
+    .why_images {
+
+        height: 408.75px;
     }
 
     .why_btn .prev,
     .why_btn .next {
         width: 6rem;
-        height: 5.5rem;
-        font-size: 2.5rem;
-        padding-bottom: 26px;
+        height: 5.1rem;
+        font-size: 2rem;
+        padding: 14px;
+        line-height: 0;
     }
 
 
-    .test_btn .prev1, .test_btn .next2 {
+    .test_btn .prev1,
+    .test_btn .next2 {
         width: 6rem;
-        height: 5.5rem;
-        font-size: 2.5rem;
-        padding-bottom: 26px;
+        height: 5.1rem;
+        font-size: 2rem;
+        padding: 22px;
+        line-height: 0;
+
     }
 
-    /* #test {
-        margin-top: 17.8rem 0;
+    header nav ul li a {
+        padding-left: 0;
     }
-     */
+
+
 
 }
 
@@ -955,7 +996,8 @@ header nav ul li a {
         width: 5rem;
         height: 5.2rem;
         font-size: 2rem;
-        /* padding: 18.5px; */
+        padding: 15px;
+        line-height: 0;
     }
 
     .why_btn .prev,
@@ -966,8 +1008,9 @@ header nav ul li a {
         font-size: 2rem;
         text-align: center;
         cursor: pointer;
-        /* padding-top: 2px; */
+        padding: 16px;
     }
+
 
     #explore .swiper-slide:hover .exploreimage img {
         height: 300px;
@@ -992,3 +1035,77 @@ header nav ul li a {
         height: 400px;
     }
 }
+
+/* 992-1199 (Big_Tablet) */
+@media screen and (max-width:1199px) {
+    .container {
+        width: 100%;
+    }
+
+    header nav ul li {
+        padding: 0px 1rem;
+    }
+
+    .test_data p {
+        margin-left: 10rem;
+    }
+
+    .test_data h1 {
+        margin-left: 10rem;
+    }
+
+    .test_data a img {
+        margin-left: 10rem;
+    }
+
+    #test .test-profile-pic img {
+        top: 0;
+        right: 100px;
+
+    }
+
+    #explore .swiper-wrapper {
+        padding: 20px 30px;
+
+    }
+
+    .contact h4 {
+        font-size: 20px;
+    }
+
+    .quik h4 {
+        font-size: 20px;
+    }
+
+    .follow h4 {
+        font-size: 20px;
+    }
+
+    .contact ul li a {
+        font-size: 16px;
+    }
+
+    .quik ul li a {
+        font-size: 16px;
+    }
+
+    .traveller_images p {
+        font-size: 16px;
+    }
+
+    .why_images {
+        margin-right: 0;
+        margin-left: 0;
+        height: 413.75px;
+        background-color: #fff;
+        border-radius: 10px;
+        border: black solid 1px;
+        padding: 25px;
+        margin: 49px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing:
+    }

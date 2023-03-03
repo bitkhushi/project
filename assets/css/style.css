@@ -130,7 +130,7 @@ header nav ul li a {
     font-style: normal;
     font-weight: 600;
     font-size: 1.8rem;
-    padding-left: 1.5rem;
+    /* padding-left: 1.5rem; */
 
 
 }
@@ -140,38 +140,38 @@ header nav ul li a {
 
 }
 
-
-
+*/
 /*******************************/
 
 /*************hero*************/
 #hero .container {
-    width: 137rem;
-    margin: 0 auto;
+    max-width: 141rem;
+    margin: 0 20px;
 
 }
 
 #hero {
-    background: url(../images/n2.jpg);
+    background: url(../images/bali1.jpg);
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     background-position: center center;
     background-size: cover;
-    /* margin:100px 0; */
+    position: relative;
 }
 
 #hero p {
     color: #CFCFCF;
 }
 
-#hero span {
-    color: white;
+.hero-data span {
+    color: #ECECEC;
+    margin-top: 3.6rem;
 }
 
 
 .hero-data {
     position: absolute;
-    top: 30%;
+    top: 24%;
 }
 
 .hero-data h1 {
@@ -183,9 +183,6 @@ header nav ul li a {
     width: 650px;
     height: 212.05px;
     font-family: 'Poppins';
-
-
-
 }
 
 
@@ -198,35 +195,26 @@ header nav ul li a {
     height: 92.53px;
     margin-top: 37.59px;
     font-family: 'Poppins';
-}
-#hero .search p {
-    margin-bottom: 200px;
-}
-
-#hero .search {
-    margin-top: 10px;
-    width: 736px;
-    height: 78.07px;
-    background-color: #fff;
-    border-radius: 40px;
-    border: 1px solid #CBCACA;
-    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.3);
-    border-radius: 72px;
-    position: absolute;
 
 }
+
 
 
 #hero .search_data {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-
+    padding: 16px;
+    width: 736px;
+    height: 78.07px;
+    background-color: #fff;
+    border-radius: 72px;
+    border: 1px solid #CBCACA;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.3);
 }
 
 
-#hero button {
+.search_data button {
     width: 161px;
     height: 56.87px;
     border-radius: 50px;
@@ -241,20 +229,22 @@ header nav ul li a {
     border: none;
     font-size: 20px;
     align-items: center;
-    /* justify-content: space-between; */
-    
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 36px;
-    /* or 200% */
-
-
     color: #9B9B9B;
 }
 
+.bali {
+    margin-top: 20px;
+}
+
+.bali p span {
+    color: white;
+
+}
 
 /******************************/
 
@@ -262,22 +252,30 @@ header nav ul li a {
 
 /**********explore*************/
 #explore {
-    margin-top: 100px;
+    margin-top: 253px;
 }
 
 #explore .explore_data h1 {
-
-    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
     font-size: 60px;
     line-height: 70px;
+    color: #020202;
+    text-align: center;
+
 }
 
 #explore .explore_data p {
-    /* margin-top: 15px; */
+    margin-top: 29.06px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 36px;
     color: #878787;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+
 }
 
 .exploreimage_data h2 {
@@ -285,6 +283,8 @@ header nav ul li a {
     font-size: 24px;
     line-height: 36px;
     color: #000000;
+    font-family: 'Poppins';
+
 
 }
 
@@ -335,7 +335,9 @@ header nav ul li a {
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
-    color: #878787;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #555555;
 }
 
 .explore_data .explore-circle {
@@ -344,11 +346,9 @@ header nav ul li a {
 
 .explore_slider .swiper-wrapper .swiper-slide .exploreimage img {
     width: 444px;
-    height: 400px;
+    height: 361px;
     border-radius: 10px;
-    /* object-fit: cover;
-    object-position: center; */
-    /* margin: 10px; */
+    width: 444px;
 }
 
 
@@ -386,27 +386,29 @@ header nav ul li a {
 
 .exploreimage_data {
     opacity: 0;
-    padding: 10px;
+    padding: 20px;
+
 }
 
 #explore .swiper-slide:hover .exploreimage_data {
     opacity: 1;
     transition: all 0.5px;
 
+
 }
 
 #explore .swiper-wrapper {
     padding: 20px 0;
+
 }
 
-#explore .swiper-slide:hover {
-    /* transform: translateY(-10px); */
-}
+
 
 #explore .swiper-slide:hover {
     transform: translateY(-10px);
     box-shadow: 0px 8px 8px 0px grey;
     border-radius: 10px;
+
 }
 
 #explore .swiper-slide:hover .exploreimage img {
@@ -423,22 +425,26 @@ header nav ul li a {
 
 /**************why****************/
 #why {
-    margin-top: 100px;
-    background-size: 100% 450px;
+    margin-top: 254.34px;
+    background-size: 100% 520px;
     background-image: url(../images/bali7.jpg);
     background-repeat: no-repeat;
 }
 
+#why .why_data {
+    padding-top: 26.31px;
+}
 
-#why .why_data h1 {
+#why .why_data h2 {
     text-align: center;
     font-size: 40px;
     line-height: 70px;
     color: white;
+    /* margin-top:500px; */
 }
 
 #why .why_data p {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     text-align: center;
     font-size: 18px;
     line-height: 36px;
@@ -483,7 +489,8 @@ header nav ul li a {
     font-size: 24px;
     line-height: 36px;
     margin-top: 30px;
-
+    font-family: 'Poppins';
+    font-style: normal;
 }
 
 .why_slider .swiper-slide .why_desc p {
@@ -493,7 +500,12 @@ header nav ul li a {
     color: #858585;
     margin-top: 15px;
     /* margin-bottom: 20px; */
+    font-family: 'Poppins';
+    font-style: normal;
+}
 
+.why_desc a img {
+    margin: 10px;
 }
 
 .why_slider .swiper-slide .why_desc a {
@@ -506,32 +518,41 @@ header nav ul li a {
 
 }
 
+#why .swiper {
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
 
 .why_images {
-    margin-right: 50px;
-    margin-left: 50px;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    margin-top: 50px;
     height: 430.75px;
     background-color: #fff;
     border-radius: 10px;
-
+    padding-bottom: 50px;
     border: rgb(238, 229, 229) solid 0.1px;
     /* padding: 25px;  */
     padding: 4.5rem 0 7rem 2rem;
     box-shadow: 0px 8px 60px rgba(0, 0, 0, 0.15);
-
+    /* margin: 20px; */
 }
 
 
 /******************tour********************/
 #tour {
-    margin-top: 100px;
+    margin-top: 178.4px;
 }
 
-.tour_data h1 {
+.tour_data h2 {
     text-align: center;
     font-weight: 600;
     font-size: 60px;
     margin-top: 50px;
+    line-height: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #020202;
 }
 
 .tour_data p {
@@ -540,31 +561,53 @@ header nav ul li a {
     text-align: center;
     color: #858585;
     margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 34px;
+
 }
 
 .tour_img {
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.tour_img img {
+    height: -webkit-fill-available;
 }
 
 /******************************************/
 
 /*****************testmoinl*******************/
 #test {
-    margin-top: 100px;
+    margin-top: 178.09px;
+}
+
+.test_data h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 70px;
+    letter-spacing: 0.14em;
+    color: #626262;
 }
 
 #test .client-container {
-    margin-left: calc((100% - 137rem) / 2);
-    /* margin: 100px; */
+    margin-left: calc((100% - 141rem) / 2);
+    padding: 0 20px;
 }
 
-.test_data h1 {
+.test_data h2 {
     font-weight: 600;
-    font-size: 55px;
-    margin-top: 20px;
-
+    margin-top: -10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    /* line-height: 70px; */
+    color: #020202;
 }
 
 .test_data p {
@@ -578,7 +621,7 @@ header nav ul li a {
 .test_btn .next2 {
     z-index: 9;
     position: absolute;
-    top: -9rem;
+    top: -13.4rem;
     width: 7rem;
     height: 7rem;
     box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.1);
@@ -591,7 +634,8 @@ header nav ul li a {
     line-height: 6.5rem;
     cursor: pointer;
     display: flex;
-    padding: 20.5px;
+    padding: 24.5px;
+
 
 }
 
@@ -601,9 +645,9 @@ header nav ul li a {
 }
 
 .test_btn .prev1 {
-    /* left: 1440px; */
+
+    right: 15rem;
     color: #737373;
-    right: 125px;
 }
 
 .test_btn .next2 {
@@ -611,21 +655,29 @@ header nav ul li a {
     color: #737373;
 }
 
+
 #test .test_slider .swiper-slide {
     /*  height: 500px; */
     background-color: #fff;
     margin-left: 10px;
     /* border: 1px solid black; */
     padding-bottom: 20px;
-    margin: 0 20px;
+    /* margin: 0 20px; */
     border-radius: 10px;
     /* margin-top: -100px; */
 
 
 }
+.test_profile {
+    margin-top: 0px;
+    
+}
+.test_slider .swiper-wrapper {
+    padding-bottom: -50px; 
 
+}
 #test .test_slider .swiper-slide {
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
     padding-bottom: 5rem;
 }
 
@@ -643,18 +695,21 @@ header nav ul li a {
     margin-bottom: -50px;
 }
 
-.swiper-slide {
-    /* height: 300px; */
-}
 
 .profile_data {
-
+    
     border-radius: 10px;
-    height: 370px;
-    padding: 20px;
-    box-shadow: 2px 2px 7px 2px grey;
+    height: 432px;
+    width: 399px;
+    padding: 53px;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.1);
+    
 }
-
+.test_slider .swiper-wrapper {
+     padding-bottom: 50px;
+     padding: 50px; 
+    
+}
 .profile_data h4 {
     font-size: 18px;
     font-weight: 500px;
@@ -691,8 +746,8 @@ header nav ul li a {
 /*******************subcribe*************/
 
 #subcribe {
+  
     margin-top: 100px;
-    margin-top: 17.8rem 0;
     background-image: url(../images/bali1.jpg);
     background-size: 100%;
     height: 500px;
@@ -704,13 +759,13 @@ header nav ul li a {
     padding-top: 10px;
 }
 
-#subcribe .sub_data h1 {
+#subcribe .sub_data h2 {
     font-weight: 600;
     font-size: 60px;
     line-height: 70px;
     color: white;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10px;
 
 }
 
@@ -720,7 +775,7 @@ header nav ul li a {
     line-height: 34px;
     text-align: center;
     color: #DFDFDF;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .type_email {
@@ -731,7 +786,12 @@ header nav ul li a {
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
-    padding: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin-top: 88px;
+    margin-bottom: 157px;
+
 
 }
 
@@ -739,13 +799,17 @@ header nav ul li a {
     color: #878787;
     font-size: 20px;
     font-weight: 500;
-
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 34px;
+    color: #9B9B9B;
 
 }
 
-.type_email .sub-btn {
+.sub-btn {
     /* align-items: center; */
     text-align: center;
+    align-items: center;
 
 }
 
@@ -753,14 +817,19 @@ header nav ul li a {
 .type_email .sub-btn button {
     color: #fff;
     background-color: black;
-    width: 170px;
-    height: 50px;
+    /* width: 170px;
+    height: 50px; */
+    width: 146px;
+    height: 55px;
     border-radius: 50px;
-    margin-top: -10px;
+    /* margin-top: 5px; */
     font-weight: 500;
     font-size: 20px;
     line-height: 34px;
     text-align: center;
+    align-items: center;
+    /* padding: 10px; */
+
 
 }
 
@@ -794,6 +863,10 @@ header nav ul li a {
 }
 
 
+.contact ul li a:hover,
+.contact ul li a:hover i{
+    color: brown;
+}
 
 .contact h4 {
     font-weight: 600;
@@ -802,6 +875,10 @@ header nav ul li a {
     align-items: center;
     color: black;
     display: flex;
+}
+
+.contact ul li a i {
+    color: black;
 }
 
 .contact ul li {
@@ -828,6 +905,10 @@ header nav ul li a {
     padding-right: 1rem;
 }
 
+.quik ul li a:hover {
+    color: brown;
+}
+
 .quik h4 {
     font-weight: 600;
     font-size: 24px;
@@ -847,6 +928,10 @@ header nav ul li a {
 
 }
 
+.follow ul li {
+    display: inline-block;
+}
+
 .follow h4 {
     font-weight: 600;
     font-size: 24px;
@@ -856,9 +941,14 @@ header nav ul li a {
     color: #000;
 }
 
+.follow ul li a i:hover {
+    color: brown;
+}
+
 .follow i {
     font-size: 2rem;
-    padding: 0px 1rem 0 0;
+    padding: 0px 2rem 0 0;
+    color: #3D3D3D;
 }
 
 .copyright p {

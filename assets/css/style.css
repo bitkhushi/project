@@ -101,12 +101,13 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2rem 0;
 
+    /* padding: 2rem; */
 }
 
 header nav {
     margin-left: auto;
+
 }
 
 
@@ -116,7 +117,7 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    padding: 0 3.3rem;
+
 }
 
 header .search {
@@ -130,15 +131,80 @@ header nav ul li a {
     font-style: normal;
     font-weight: 600;
     font-size: 1.8rem;
-    /* padding-left: 1.5rem; */
+    display: inline-block;
+    padding: 0 3.3rem;
 
+}
 
+nav ul li a:hover i {
+    transform: rotate(90deg);
 }
 
 .dark-header {
     background-color: #000;
 
 }
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    transition: all 0.5s;
+
+}
+
+header nav ul li a {
+    display: inline-block;
+    transition: all 0.5s;
+    padding: 20px;
+
+}
+
+header nav ul li a:hover {
+    background-color: black;
+    color: azure;
+
+}
+
+header nav ul li:hover>ul {
+    display: inline-block;
+
+}
+
+header nav ul li ul {
+    display: inline-block;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    background-color: gray;
+    display: none;
+
+}
+
+header nav ul li ul li,
+header nav ul li ul li a {
+    width: 100%;
+    text-align: center;
+}
+
+
+header nav ul li li ul {
+    top: 0;
+    left: 130px;
+    position: absolute;
+
+}
+
+nav ul>i,
+nav>i {
+    display: none !important;
+}
+
+nav ul li a:hover i {
+    transform: rotate(90deg);
+}
+
+
 
 */
 /*******************************/
@@ -252,10 +318,10 @@ header nav ul li a {
 
 /**********explore*************/
 #explore {
-    margin-top: 253px;
+    margin-top: 178px;
 }
 
-#explore .explore_data h1 {
+.main_title h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -266,7 +332,7 @@ header nav ul li a {
 
 }
 
-#explore .explore_data p {
+.main_title p {
     margin-top: 29.06px;
     text-align: center;
     font-size: 18px;
@@ -392,7 +458,7 @@ header nav ul li a {
 
 #explore .swiper-slide:hover .exploreimage_data {
     opacity: 1;
-    transition: all 0.5px;
+    transition: all 1s;
 
 
 }
@@ -406,7 +472,8 @@ header nav ul li a {
 
 #explore .swiper-slide:hover {
     transform: translateY(-10px);
-    box-shadow: 0px 8px 8px 0px grey;
+    /* box-shadow: 0px 8px 8px 0px grey; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 
 }
@@ -422,29 +489,30 @@ header nav ul li a {
 
 
 
-
-/**************why****************/
+/************why*****************/
 #why {
-    margin-top: 254.34px;
-    background-size: 100% 520px;
+    margin-top: 178.34px;
+    background-size: 100% 500px;
     background-image: url(../images/bali7.jpg);
     background-repeat: no-repeat;
 }
 
-#why .why_data {
-    padding-top: 26.31px;
+#why .swiper-wrapper {
+    padding-bottom: 50px;
+
 }
 
 #why .why_data h2 {
     text-align: center;
-    font-size: 40px;
-    line-height: 70px;
+    font-size: 60px;
+    line-height: 90px;
     color: white;
-    /* margin-top:500px; */
+    font-weight: 700;
+    padding-top: 20px;
 }
 
 #why .why_data p {
-    /* margin-top: 15px; */
+    margin-top: 15px;
     text-align: center;
     font-size: 18px;
     line-height: 36px;
@@ -489,8 +557,11 @@ header nav ul li a {
     font-size: 24px;
     line-height: 36px;
     margin-top: 30px;
-    font-family: 'Poppins';
-    font-style: normal;
+
+}
+
+.why_desc img {
+    margin: 5px;
 }
 
 .why_slider .swiper-slide .why_desc p {
@@ -499,13 +570,8 @@ header nav ul li a {
     line-height: 27px;
     color: #858585;
     margin-top: 15px;
-    /* margin-bottom: 20px; */
-    font-family: 'Poppins';
-    font-style: normal;
-}
 
-.why_desc a img {
-    margin: 10px;
+
 }
 
 .why_slider .swiper-slide .why_desc a {
@@ -519,29 +585,29 @@ header nav ul li a {
 }
 
 #why .swiper {
-    margin-left: 14rem;
     margin-right: 14rem;
+    margin-left: 14rem;
 }
 
 .why_images {
-    /* margin-right: 100px;
-    margin-left: 100px; */
-    margin-top: 50px;
-    height: 430.75px;
+
+    height: 432.77px;
+    width: 329.95px;
     background-color: #fff;
     border-radius: 10px;
-    padding-bottom: 50px;
-    border: rgb(238, 229, 229) solid 0.1px;
-    /* padding: 25px;  */
-    padding: 4.5rem 0 7rem 2rem;
-    box-shadow: 0px 8px 60px rgba(0, 0, 0, 0.15);
-    /* margin: 20px; */
+    /* border: rgb(225, 215, 215) solid 1px; */
+    padding: 25px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+
+    /* margin: 5px; */
+
 }
 
 
 /******************tour********************/
 #tour {
-    margin-top: 178.4px;
+    margin-top: 89.4px;
 }
 
 .tour_data h2 {
@@ -571,10 +637,13 @@ header nav ul li a {
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
+
+    align-items: center;
 }
 
 .tour_img img {
     height: -webkit-fill-available;
+
 }
 
 /******************************************/
@@ -659,7 +728,7 @@ header nav ul li a {
 #test .test_slider .swiper-slide {
     /*  height: 500px; */
     background-color: #fff;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     /* border: 1px solid black; */
     padding-bottom: 20px;
     /* margin: 0 20px; */
@@ -668,14 +737,18 @@ header nav ul li a {
 
 
 }
+
 .test_profile {
     margin-top: 0px;
-    
-}
-.test_slider .swiper-wrapper {
-    padding-bottom: -50px; 
 
 }
+
+
+.test_slider .swiper-wrapper {
+    /* padding-bottom: 50px; */
+    padding: -3px;
+}
+
 #test .test_slider .swiper-slide {
     /* padding-top: 7rem; */
     padding-bottom: 5rem;
@@ -697,26 +770,30 @@ header nav ul li a {
 
 
 .profile_data {
-    
+    margin-top: 10px;
     border-radius: 10px;
     height: 432px;
     width: 399px;
     padding: 53px;
     box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.1);
-    
+
 }
+
 .test_slider .swiper-wrapper {
-     padding-bottom: 50px;
-     padding: 50px; 
-    
+    padding-bottom: 50px;
+    padding: 0 45px 24px;
+
 }
+
 .profile_data h4 {
-    font-size: 18px;
-    font-weight: 500px;
+    font-size: 24px;
+    font-weight: 600px;
     line-height: 70px;
     text-align: center;
-    margin-top: 50px;
-
+    margin-top: -2px;
+    font-family: 'Poppins';
+    font-style: normal;
+   
 }
 
 .profile_data img {
@@ -725,9 +802,15 @@ header nav ul li a {
 
 .profile_data p {
     text-align: center;
-    font-size: 17px;
     color: #858585;
-    margin-top: -30px;
+    margin-top: -49px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 70px;
+
+
 
 }
 
@@ -746,7 +829,7 @@ header nav ul li a {
 /*******************subcribe*************/
 
 #subcribe {
-  
+
     margin-top: 100px;
     background-image: url(../images/bali1.jpg);
     background-size: 100%;
@@ -782,13 +865,13 @@ header nav ul li a {
     width: 676px;
     height: 69px;
     background-color: #fff;
-    border-radius: 30px;
+    border-radius: 34.5px;
     display: flex;
     justify-content: space-between;
-    margin: 50px auto;
+    margin: 0 auto;
     align-items: center;
     text-align: center;
-    padding: 15px;
+
     margin-top: 88px;
     margin-bottom: 157px;
 
@@ -803,13 +886,15 @@ header nav ul li a {
     font-style: normal;
     line-height: 34px;
     color: #9B9B9B;
+    padding: 15px;
 
 }
 
 .sub-btn {
-    /* align-items: center; */
-    text-align: center;
     align-items: center;
+    text-align: center;
+
+
 
 }
 
@@ -817,18 +902,16 @@ header nav ul li a {
 .type_email .sub-btn button {
     color: #fff;
     background-color: black;
-    /* width: 170px;
-    height: 50px; */
+
     width: 146px;
     height: 55px;
-    border-radius: 50px;
-    /* margin-top: 5px; */
+    border-radius: 27.5px;
     font-weight: 500;
     font-size: 20px;
     line-height: 34px;
     text-align: center;
-    align-items: center;
-    /* padding: 10px; */
+
+    margin: 8px;
 
 
 }
@@ -864,7 +947,7 @@ header nav ul li a {
 
 
 .contact ul li a:hover,
-.contact ul li a:hover i{
+.contact ul li a:hover i {
     color: brown;
 }
 

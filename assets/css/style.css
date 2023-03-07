@@ -190,7 +190,7 @@ header nav ul li ul li a {
 
 header nav ul li li ul {
     top: 0;
-    left: 130px;
+    left: 143px;
     position: absolute;
 
 }
@@ -204,7 +204,9 @@ nav ul li a:hover i {
     transform: rotate(90deg);
 }
 
-
+nav ul li a i {
+    padding: 4px;
+}
 
 */
 /*******************************/
@@ -219,7 +221,7 @@ nav ul li a:hover i {
 #hero {
     background: url(../images/bali1.jpg);
     width: 100%;
-    height: 100vh;
+    height: 113vh;
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -249,6 +251,7 @@ nav ul li a:hover i {
     width: 650px;
     height: 212.05px;
     font-family: 'Poppins';
+    margin-top: 50px;
 }
 
 
@@ -273,6 +276,7 @@ nav ul li a:hover i {
     padding: 16px;
     width: 736px;
     height: 78.07px;
+    /* margin-top: 10px; */
     background-color: #fff;
     border-radius: 72px;
     border: 1px solid #CBCACA;
@@ -370,7 +374,7 @@ nav ul li a:hover i {
     position: absolute;
     text-align: center;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.14);
-    top: -5rem;
+    top: -2rem;
     right: 3rem;
 }
 
@@ -384,8 +388,12 @@ nav ul li a:hover i {
     font-size: 72px;
     line-height: 126px;
     text-align: center;
+    align-items: center;
+    font-style: italic;
+    padding-right: 24px;
     color: #000000;
     display: inline-block;
+
 }
 
 .exploreimage_data h2 {
@@ -498,8 +506,13 @@ nav ul li a:hover i {
 }
 
 #why .swiper-wrapper {
-    padding-bottom: 50px;
+    padding: 5px;
+    margin-top: 5rem;
+}
 
+
+#test .why_slider .swiper-slide {
+    padding: 50px;
 }
 
 #why .why_data h2 {
@@ -584,30 +597,28 @@ nav ul li a:hover i {
 
 }
 
-#why .swiper {
-    margin-right: 14rem;
-    margin-left: 14rem;
-}
 
 .why_images {
 
     height: 432.77px;
-    width: 329.95px;
     background-color: #fff;
     border-radius: 10px;
     /* border: rgb(225, 215, 215) solid 1px; */
-    padding: 25px;
+    padding: 25px 25px 40px;
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
     margin-top: 20px;
-
+    margin: 20px 60px 20px 60px;
     /* margin: 5px; */
 
 }
 
+#why .swiper {
+    padding-bottom: 77px;
+}
 
 /******************tour********************/
 #tour {
-    margin-top: 89.4px;
+    margin-top: 94.4px;
 }
 
 .tour_data h2 {
@@ -635,14 +646,14 @@ nav ul li a:hover i {
 
 .tour_img {
     display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
-
+    margin: 25px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .tour_img img {
     height: -webkit-fill-available;
+    margin: 40px;
 
 }
 
@@ -710,7 +721,7 @@ nav ul li a:hover i {
 
 #test .test_btn {
     position: relative;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .test_btn .prev1 {
@@ -726,16 +737,9 @@ nav ul li a:hover i {
 
 
 #test .test_slider .swiper-slide {
-    /*  height: 500px; */
     background-color: #fff;
-    /* margin-left: 10px; */
-    /* border: 1px solid black; */
     padding-bottom: 20px;
-    /* margin: 0 20px; */
     border-radius: 10px;
-    /* margin-top: -100px; */
-
-
 }
 
 .test_profile {
@@ -745,8 +749,8 @@ nav ul li a:hover i {
 
 
 .test_slider .swiper-wrapper {
-    /* padding-bottom: 50px; */
-    padding: -3px;
+    padding-bottom: 50px;
+    /* padding: -3px; */
 }
 
 #test .test_slider .swiper-slide {
@@ -759,29 +763,33 @@ nav ul li a:hover i {
 #test .test_slider .swiper-slide .test_profile .test-profile-pic {
     display: flex;
     justify-content: center;
-
-
-}
-
-#test .test_slider .swiper-slide .test_profile .test-profile-pic img {
-    /* margin-top: -100px; */
     margin-bottom: -50px;
 }
 
 
+#test .test_slider .swiper-slide .test_profile .test-profile-pic img {
+     margin-top: -70px;
+    margin: -61px 125px;
+    display: flex;
+     justify-content: center; 
+    align-items: center; 
+    
+}
+
 .profile_data {
-    margin-top: 10px;
+    margin-top: 50px;
     border-radius: 10px;
     height: 432px;
-    width: 399px;
-    padding: 53px;
+    /* width: 399px; */
+    padding: 30px;
+    padding-bottom: 50px;
     box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.1);
 
 }
 
 .test_slider .swiper-wrapper {
     padding-bottom: 50px;
-    padding: 0 45px 24px;
+    padding: 63px 45px 24px;
 
 }
 
@@ -790,10 +798,10 @@ nav ul li a:hover i {
     font-weight: 600px;
     line-height: 70px;
     text-align: center;
-    margin-top: -2px;
+    margin-top: 50px;
     font-family: 'Poppins';
     font-style: normal;
-   
+
 }
 
 .profile_data img {
@@ -808,7 +816,7 @@ nav ul li a:hover i {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 70px;
+    line-height: 90px;
 
 
 
@@ -848,7 +856,7 @@ nav ul li a:hover i {
     line-height: 70px;
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
 
 }
 
@@ -948,7 +956,7 @@ nav ul li a:hover i {
 
 .contact ul li a:hover,
 .contact ul li a:hover i {
-    color: brown;
+    color: #069ABA;
 }
 
 .contact h4 {
@@ -989,7 +997,7 @@ nav ul li a:hover i {
 }
 
 .quik ul li a:hover {
-    color: brown;
+    color: #069ABA;
 }
 
 .quik h4 {
@@ -1025,7 +1033,7 @@ nav ul li a:hover i {
 }
 
 .follow ul li a i:hover {
-    color: brown;
+    color: #069ABA;
 }
 
 .follow i {
@@ -1056,11 +1064,16 @@ nav ul li a:hover i {
 /* 1366-1440 (laptop) */
 @media screen and (max-width:1440px) {
     .container {
-        max-width: 133rem;
+        max-width: 134rem;
+        padding: 0 15px;
     }
 
+    /* header nav ul li a {
+        padding-left: 37px;
+    } */
+
     #test .client-container {
-        margin-left: calc((100% - 133rem) / 2);
+        margin-left: calc((100% - 134rem) / 2);
     }
 
     .hero-data h1 {
@@ -1073,16 +1086,16 @@ nav ul li a:hover i {
     }
 
     .hero-data {
-        top: 53%;
+        top: 22%;
     }
 
     .hero-data p {
-        margin-top: 22px;
+        margin-top: -2px;
     }
 
-    #explore {
+    /* #explore {
         margin: 10.5rem;
-    }
+    } */
 
 
     .explore_btn .prev,
@@ -1091,7 +1104,7 @@ nav ul li a:hover i {
         height: 5.1rem;
         font-size: 2rem;
         line-height: 0;
-        padding: 18px;
+        padding: 15px;
     }
 
     .why_images {
@@ -1120,12 +1133,34 @@ nav ul li a:hover i {
     }
 
     header nav ul li a {
-        padding-left: 0;
+        padding: 25px;
     }
 
 
+    header nav ul li ul li a {
+        padding: 15px 0;
+    }
 
-}
+    header nav ul li li ul {
+        top: 0;
+        left: 154px;
+        position: absolute;
+    }
+
+    header nav ul li ul li a {
+        padding: 15px;
+    }
+
+   
+
+    /* .profile_data {
+      
+        height: 432px;
+        width: 370px;
+    } */
+    .tra_img img{
+        width: 80%;
+    }
 
 /* 1200-1365(Big_ipad) */
 @media screen and (max-width:1365px) {
@@ -1282,3 +1317,4 @@ nav ul li a:hover i {
         padding: 0;
         box-sizing:
     }
+}

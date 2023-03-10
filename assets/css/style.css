@@ -125,10 +125,11 @@ header nav ul li {
     font-size: 1.8rem;
     padding: 3.6rem;
 } */
+
 header .search {
     color: #fff;
     font-size: 1.8rem;
-    padding: 3.3rem;
+    padding: 1rem;
     /* margin: 20px; */
 }
 
@@ -194,7 +195,8 @@ header nav ul li ul li a {
 }
 
 
-header nav ul li li ul {
+header nav ul li li ul
+ {
     top: 0;
     left: 143px;
     position: absolute;
@@ -214,10 +216,7 @@ nav ul li a i {
     padding: 4px;
 }
 
-.search i {
-    
-    
-} 
+
 
 */
 /*******************************/
@@ -297,13 +296,15 @@ nav ul li a i {
 
 .search_data button {
     width: 161px;
-    height: 56.87px;
+    height: 53.87px;
     border-radius: 50px;
     background-color: #000;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
+    margin-right: -6px;
 }
+
 
 
 .search_data select {
@@ -607,7 +608,10 @@ nav ul li a i {
     margin-top: 25px;
 
 }
-
+.why_img img {
+    width: 95.57px;
+    height: 97px;
+}
 
 .why_images {
 
@@ -735,14 +739,18 @@ nav ul li a i {
     margin-top: 80px;
 }
 
-.test_btn .prev1 {
 
-    right: 15rem;
+.test_btn .prev1 {
+    right: 18rem;
     color: #737373;
 }
 
-.test_btn .next2 {
+/* .test_btn .next2 {
     right: 3rem;
+    color: #737373;
+} */
+.test_btn .next2 {
+    right: 5.5rem;
     color: #737373;
 }
 
@@ -1086,8 +1094,8 @@ nav ul li a i {
     }
 
     .hero-data h1 {
-        font-size: 7rem;
-        line-height: 8rem;
+        font-size: 8rem;
+        line-height: 9rem;
     }
 
     #hero {
@@ -1110,37 +1118,36 @@ nav ul li a i {
         width: 720px;
         height: 75.07px;
     }
-    .explore_btn .prev,
-    .explore_btn .next {
-        width: 5.1rem;
-        height: 5.1rem;
-        font-size: 2rem;
+    .explore_btn .prev, .explore_btn .next {
+        width: 6.1rem;
+        height: 6.1rem;
+        font-size: 2.5rem;
         line-height: 0;
-        padding: 15px;
+        padding: 19px;
     }
 
     .why_images {
          height: 408.75px;
     }
+    .why_img img {
+        width: 94.57px;
+        height: 96px;
+    }
 
-    .why_btn .prev,
-    .why_btn .next {
-        width: 5.1rem;
-        height: 5.1rem;
-        font-size: 2rem;
-        padding: 14px;
+    .why_btn .prev, .why_btn .next {
+        width: 6.1rem;
+        height: 6.1rem;
+        font-size: 2.5rem;
+        padding: 18px;
         line-height: 0;
     }
 
-
-    .test_btn .prev1,
-    .test_btn .next2 {
-        width: 5.1rem;
-        height: 5.1rem;
-        font-size: 2rem;
-        padding: 19px;
+    .test_btn .prev1, .test_btn .next2 {
+        width: 6.1rem;
+        height: 6.1rem;
+        font-size: 2.5rem;
+        padding: 23px;
         line-height: 0;
-
     }
 
     header nav ul li a {
@@ -1162,19 +1169,19 @@ nav ul li a i {
         padding: 15px;
     }
     #why .why_data h2 {
-        font-size: 53px;
-        line-height: 59px;
+        font-size: 55px;
+        line-height: 60px;
     }
 
     .tra_img img {
         width: 80%;
     }
     .main_title p {
-        line-height: 36px;
+        line-height: 38px;
         margin-top: 0;
     }
     .main_title h2 {
-        font-size: 53px;
+        font-size: 55px;
         line-height: 59px;
     }
     #explore {
@@ -1187,25 +1194,25 @@ nav ul li a i {
         font-size: 16px;
     }
     .contact ul li a{
-        font-size: 16px;
+        font-size: 17px;
     }
     .quik ul li a{
-        font-size: 16px;
+        font-size: 17px;
     }
     .explore-circle {
-        width: 6rem;
-        height: 6rem;
+        width: 7rem;
+        height: 7rem;
     }
     .explore-circle span {
         font-weight: 400;
-        font-size: 66px;
+        font-size: 67px;
         line-height: 109px;
     }
     .why_slider .swiper-slide .why_desc p {
-        font-size: 16px;
+        font-size: 17px;
     }
     .why_slider .swiper-slide .why_desc h4 {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     #tour {
@@ -1222,27 +1229,33 @@ nav ul li a i {
     }
     #subcribe .sub_data h2 {
         line-height: 59px;
-        font-size: 53px;
+        font-size: 54px;
     }
     #subcribe .sub_data p {
        
-        font-size: 16px;
-        line-height: 36px;
+        font-size: 17px;
+        line-height: 37px;
     }
 
     .tour_data h2 {
       font-weight: 600;
-      font-size: 53px;
-      line-height: 52px;
+      font-size: 54px;
+      line-height: 53px;
     }
     .tour_data p {
-        font-size: 16px;
-        line-height: 30px;
+        font-size: 17px;
+        line-height: 31px;
     }
 
     #subcribe {
 
         margin-top: 160px;
+    }
+    #top {
+        margin-top: 90px;
+    }
+    #bottom {
+        margin-top: 90px;
     }
 
 }
@@ -1252,12 +1265,17 @@ nav ul li a i {
     /* 1200-1365(Big_ipad) */
     @media screen and (max-width:1365px) {
         .container {
-            max-width: 115rem;
+            max-width: 95%;
         }
 
-
+       
         header nav ul li a {
-            padding: 15px;
+            padding: 20px;
+        }
+        header nav ul li li ul {
+            top: 0;
+            left: 116px;
+            
         }
 
         header nav ul li {
@@ -1271,13 +1289,16 @@ nav ul li a i {
             /* margin-top: 55px; */
         }
 
-        header nav ul li li ul {
+        /* header nav ul li li ul {
             left: 118px;
             top: 0;
 
-        }
+        } */
         nav ul li a i {
             padding: 3px;
+        }
+        .test_btn .next2 {
+            right: 2rem;
         }
         
         
@@ -1292,7 +1313,7 @@ nav ul li a i {
         }
 
         .explore_slider .swiper-wrapper .swiper-slide .exploreimage img {
-            width: 300px;
+            /* width: 300px; */
             height: 300px;
         }
 
@@ -1308,7 +1329,7 @@ nav ul li a i {
         }
 
         #test .client-container {
-            margin-left: calc((100% - 115rem) / 2);
+            margin-left: calc((100% - 95%) / 2);
 
         }
 
@@ -1352,24 +1373,201 @@ nav ul li a i {
         #subcribe .sub_data h1 {
             margin-top: 20px;
         }
+        #explore {
+            margin-top: 155px;
+        }
+        #why {
+            margin-top: 150px;
+        }
 
         #subcribe {
             height: 400px;
         }
         .main_title h2 {
+               font-size: 49px;
+               line-height: 57px;;
             
+        }
+        .main_title p {
+            line-height: 37px;
+            margin-top: 0;
+            font-size: 16px;
+        }
+        .hero-data h1 {
+            font-size: 7rem;
+            line-height: 8rem;
+        }
+        #hero p {
+            margin-top: -32px;
+        }
+        .hero-data p {
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 3.4rem;
+        }
+        #hero .search_data {
+            width: 715px;
+            height: 74.07px;
+        }
+        .search_data select {
+            font-size: 17px;
+        }
+        .search_data button{
+            font-size: 17px;
+        }
+        .explore-circle {
+            width: 6rem;
+            height: 6rem;
+        }
+        .explore-circle span {
+            font-weight: 400;
+            font-size: 65px;
+            line-height: 107px;
+        }
+        .exploreimage_data h2 {
+            font-weight: 600;
+            font-size: 2.2rem;
+            line-height: 3.4rem;
+            color: #000;
+            margin-top: 17px;
+        }
+        #why .why_data h2 {
+            font-size: 53px;
+            line-height: 51px;
+        }
+        #why .why_data p {
+            
+            font-size: 16px;
+            line-height: 37px;
+        }
+        .why_images {
+            margin: 10px 42px 20px 42px;
+        }
+        .why_img img {
+            width: 93.57px;
+            height: 95px;
+        }
+        .why_slider .swiper-slide .why_desc h4 {
+            font-size: 22px;
+        }
+        .why_slider .swiper-slide .why_desc p {
+            font-size: 16px;
+        }
+        .why_slider .swiper-slide .why_desc a {
+            
+            font-size: 17px;
+        }
+        
+        .why_desc img {
+            margin: 6px;
+        }
+        #tour {
+            margin-top: 89.4px;
+        }
+        .tour_data h2 {
            
-            font-size: 51px;
+            font-size: 53px;
+            line-height: 51px;
+        }
+        .tour_data p {
+            font-size: 16px;
+            line-height: 30px;
+        }
+        .test_data h3 {
+             font-size: 29px;
+            line-height: 69px;
             
+        }
+        .test_data h2 {
+            font-size: 58px;
+        }
+        .test_data p {
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 29px;
             
+        }
+        #test .test_slider .swiper-slide .test_profile .test-profile-pic img {
+            
+            height: 115px;
+            width: 115px;
+        }
+        .profile_data h4 {
+            font-size: 22px;
+            line-height: 68px;
+            margin-top: 44px;
+            
+        }
+        .profile_data img {
+            margin-top: 35px;
+        }
+        .profile_data p {
+            margin-top: -50px;
+            font-size: 17px;
+            line-height: 89px;
+        }
+        #subcribe .sub_data h2 {
+            line-height: 57px;
+            font-size: 53px;
+        }
+        #subcribe .sub_data p {
+            font-size: 16px;
+            line-height: 33px;
+        }
+        .type_email {
+            width: 674px;
+            height: 67px;
+            margin-top: 82px;
+            
+        }
+        .type_email h4 {
+            font-size: 18px;
+        }
+        .type_email .sub-btn button {
+            width: 144px;
+            height: 53px;
+            font-size: 19px;
+            line-height: 34px;
+        }
+        .tra_img img {
+            width: 79%;
+        }
+        .traveller_images p {
+            font-size: 16px;
+        }
+        .contact h4 {
+            font-size: 23px;
+        }
+        .quik h4 {
+            font-size: 23px;
+        }
+        .follow h4 {
+            font-size: 23px;
+        }
+        .copyright p {
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 34px;
+            text-align: center;
+            color: #fff;
+            height: 87px;
+            padding: 49px;
+            background-color: #000;
+        }
+        #top {
+            margin-top: 80px;
+        }
+        #bottom {
+            margin-top: 80px;
         }
     }
 
+
     /* 992-1199 (Big_Tablet) */
     @media screen and (max-width:1199px) {
-        .container {
+        /* .container {
             width: 100%;
-        }
+         }  */
 
         header nav ul li {
             padding: 0px 1rem;
@@ -1416,6 +1614,7 @@ nav ul li a i {
 
         .quik ul li a {
             font-size: 16px;
+
         }
 
         .traveller_images p {

@@ -24,7 +24,9 @@
             </a>
 
             <nav>
-                <ul>
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i> 
+            <ul id="menu"> 
+                    <i class="fa-solid fa-xmark" onclick="toggleMenu()"></i>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li>
@@ -512,7 +514,7 @@
                             <img src="./assets/images/logotragrp.png" alt="">
 
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Quisque pharetra condimentum.
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra condimentum.
                         </p>
 
                     </div>
@@ -563,6 +565,11 @@
 
         </section>
     </footer>
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle('showHide')
+        }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 

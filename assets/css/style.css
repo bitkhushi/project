@@ -640,7 +640,7 @@ nav ul li a i {
     text-align: center;
     font-weight: 600;
     font-size: 60px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     line-height: 70px;
     font-family: 'Poppins';
     font-style: normal;
@@ -955,8 +955,8 @@ nav ul li a i {
 
 .traveller {
     display: flex;
+    width: 400px;
     justify-content: space-between;
-
 }
 
 
@@ -1570,27 +1570,30 @@ nav ul li a i {
         .container {
             width: 100%;
          } 
+         header .container {
+            padding: 15px;
+        }
          #explore {
-            margin-top: 153px;
+            margin-top: 130px;
         } 
         #why {
-            margin-top: 148px;
+            margin-top: 130px;
         }
         #tour {
-            margin-top: 86.4px;
+            margin-top: 40.4px;
         }
 
         #top {
-            margin-top: 80px;
+            margin-top: 130px;
         }
         #bottom {
-            margin-top: 80px;
+            margin-top: 130px;
         }
         #test {
-            margin-top: 156px;
+            margin-top: 120px;
         }
         #subcribe {
-            margin-top: 156px;
+            margin-top: 120px;
         }
 
         header nav ul li a {
@@ -1624,8 +1627,8 @@ nav ul li a i {
             margin-top: -29px;
         }
         #hero .search_data {
-            width: 712px;
-            height: 71.07px;
+            width: 625px;
+            height: 68.07px;
         }
         .search_data select {
             font-size: 16px;
@@ -1674,16 +1677,15 @@ nav ul li a i {
             height: 93px;
         }
 
-        .tour_img img {
-            height: -webkit-fill-available;
-            margin: 0;
-            width: 14%;
-        }
+        
+    
         .tour_img {
             display: flex;
-            margin: 51px;
+            margin: 25px;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0 69px;
         }
         .tour_data h2 {
             font-size: 51px;
@@ -1708,7 +1710,9 @@ nav ul li a i {
         .test_slider .swiper-wrapper {
             /* padding-bottom: 50px; */
             padding: 63px 10px 24px;
-        }
+             margin-bottom: 53px;
+            }
+        
         #test .test_slider .swiper-slide .test_profile .test-profile-pic img {
             height: 114px;
             width: 114px;
@@ -1729,9 +1733,7 @@ nav ul li a i {
             margin-top: 9px;
         }
         .profile_data {
-            /* margin-top: 50px;
-            border-radius: 10px; */
-            height: 386px;
+            height: 428px;
         }
         #subcribe .sub_data h2 {
             line-height: 55px;
@@ -1742,9 +1744,9 @@ nav ul li a i {
             line-height: 32px;
         }
         .type_email {
-            width: 672px;
-            height: 66px;
-            margin-top: 71px;
+            width: 580px;
+            height: 63px;
+            
         }
         .type_email h4 {
             font-size: 17px;
@@ -1756,8 +1758,10 @@ nav ul li a i {
             font-size: 18px;
             line-height: 33px;
         }
+        
         .tra_img img {
             width: 70%;
+            margin-top: 13px;
         }
         .traveller_images p {
             font-size: 15px;
@@ -1777,6 +1781,89 @@ nav ul li a i {
         .follow h4 {
             font-size: 21px;
         }
-
+        .copyright p {
+            font-size: 16px;
+            line-height: 33px;
+        }
+        .traveller{
+           width: 30%;
+        }
+        .contact{
+          width: 25%;  
+        }
+        .quik{
+            width: 15%;
+        }
+        .follow{
+           width: 20%;
+        }
+        .test_btn .prev1 {
+            right: 51rem;
+            margin-top: 60px;
+        }
+        .test_btn .next2 {
+            right: 36rem;
+            margin-top: 60px;
+        }
+        #test .test_slider .swiper-slide {
+            
+            padding: 0 4rem;
+        }
 
     }
+
+/* 768 - 991 (big tablet) */
+@media screen and (max-width:768px) {
+    nav>ul {
+        position: absolute;
+        width: 30%;
+        height: 100vh;
+        background-color: rgb(78, 36, 75);
+        top: 0;
+        right: 0;
+        transition: all 1s;
+    }
+
+    nav i{
+        color: #fff;
+    }
+    header nav ul li {
+        display: block;
+        padding: 2rem;
+        margin-top: 1rem;
+    }
+
+   
+    header nav ul li ul,
+    header nav ul li ul li ul {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    header nav ul li ul li>a {
+        padding-left: 40px;
+    }
+    header nav ul li ul li ul li>a {
+        padding-left: 60px;
+    }
+    header nav ul li a {
+        width: 100%;
+    }
+    nav ul>i {
+        padding: 20px;
+        font-size: 20px;
+        float: right;
+        z-index: 999;
+        position: relative;
+        display: inline-block !important;
+    }
+    nav>i {
+        font-size: 20px;
+        padding: 20px;
+        display: inline-block !important;
+    }
+    .showHide {
+        right: -70%;
+    }
+}

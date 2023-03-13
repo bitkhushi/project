@@ -615,7 +615,7 @@ nav ul li a i {
 
 .why_images {
 
-    height: 432.77px;
+    /* height: 432.77px; */
     background-color: #fff;
     border-radius: 10px;
     /* border: rgb(225, 215, 215) solid 1px; */
@@ -1813,10 +1813,10 @@ nav ul li a i {
     }
 
 /* 768 - 991 (big tablet) */
-@media screen and (max-width:768px) {
+@media screen and (max-width:991px) {
     nav>ul {
         position: absolute;
-        width: 30%;
+        width: 50%;
         height: 100vh;
         background-color: rgb(78, 36, 75);
         top: 0;
@@ -1866,4 +1866,196 @@ nav ul li a i {
     .showHide {
         right: -70%;
     }
+}
+   
+    .hero-data h1 {
+        font-size: 6.3rem;
+        line-height: 7.3rem;
+    }
+    .hero-data p {
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 3.2rem;
+    }
+    .search_data select {
+        font-size: 14px;
+    }
+    #hero .search_data {
+        width: 608px;
+        height: 68.07px;
+    }
+    .search_data button {
+        font-size: 14px;
+    }
+    .main_title h2 {
+        font-size: 45px;
+        line-height: 53px;
+    }
+    .main_title p {
+        line-height: 35px;
+        font-size: 14px;
+    }
+    #explore .swiper-slide:hover .exploreimage img {
+        height: 294px;
+        width: 100%;
+    }
+    .explore_slider .swiper-wrapper .swiper-slide .exploreimage img {
+        height: 290px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .explore-circle {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+    .explore-circle span {
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 104px;
+    }
+    .exploreimage_data h2 {
+        
+        font-size: 2rem;
+        line-height: 3.1rem;
+        margin-top: 15px;
+    }
+    .exploreimage_data p {
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 20px;
+       
+    }
+   
+    #why .why_data h2 {
+        font-size: 49px;
+        line-height: 47px;
+    }
+    #why .why_data p {
+        font-size: 15px;
+        line-height: 36px;
+    }
+    .why_img img {
+        width: 91.54px;
+        height: 91px;
+    }
+    .why_slider .swiper-slide .why_desc h4 {
+        font-size: 21px;
+    }
+    .why_slider .swiper-slide .why_desc p {
+        font-size: 15px;
+    }
+    .why_slider .swiper-slide .why_desc a {
+        font-size: 16px;
+    }
+    .why_images {
+        margin: 35px;
+    }
+    .tour_data h2 {
+        font-size: 49px;
+        line-height: 47px;
+    }
+    .tour_data p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .tour_img {
+        gap: 0 26px;
+    }
+    .test_data h3 {
+        font-size: 26px;
+        line-height: 66px;
+    }
+    .test_data h2 {
+        font-size: 53px;
+    }
+    .test_data p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .test_btn .prev1 {
+        right: 39rem;
+        margin-top: 60px;
+    }
+    .test_btn .next2 {
+        right: 25rem;
+        margin-top: 60px;
+    }
+    #test .test_slider .swiper-slide .test_profile .test-profile-pic img {
+        height: 112px;
+        width: 112px;
+    }
+    .profile_data h4 {
+        font-size: 20px;
+        line-height: 66px;
+        margin-top: 34px;
+    }
+    .profile_data p {
+        margin-top: -50px;
+        font-size: 15px;
+        line-height: 87px;
+    }
+    .profile_data h3 {
+        font-size: 14px;
+        line-height: 27px;
+        margin-top: 9px;
+    }
+    .profile_data img {
+        margin-top: 33px;
+    }
+    #subcribe .sub_data h2 {
+        line-height: 55px;
+        font-size: 47px;
+    }
+    #subcribe .sub_data p {
+        font-size: 15px;
+        line-height: 31px;
+    }
+    .type_email {
+        width: 572px;
+        height: 60px;
+    }
+    .type_email h4 {
+        font-size: 15px;
+    }
+    .type_email .sub-btn button {
+        width: 143px;
+        height: 52px;
+        font-size: 17px;
+        line-height: 31px;
+    }
+    .traveller{
+        width: 40%;
+     }
+     .contact{
+       width: 40%;  
+     }
+     .quik{
+         width: 40%;
+     }
+     .follow{
+        width: 40%;
+     }
+     #top .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .copyright p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .tra_img img {
+        width: 68%;
+        margin-top: 13px;
+    }
+    .contact h4 {
+        font-size: 20px;
+    }
+    .traveller_images p {
+        font-size: 14px;
+    }
+   
+
+
 }

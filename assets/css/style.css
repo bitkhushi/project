@@ -1600,7 +1600,7 @@ nav ul li a i {
             padding: 8px;
             font-size: 1.6rem;
         }
-         .why_images {
+        .why_images {
             margin-right: 0;
             margin-left: 0;
             height: 413.75px;
@@ -1829,7 +1829,7 @@ nav ul li a i {
     }
     header nav ul li {
         display: block;
-        padding: 2rem;
+        /* padding: 2rem; */
         margin-top: 1rem;
     }
 
@@ -1841,12 +1841,7 @@ nav ul li a i {
         left: 0;
         width: 100%;
     }
-    header nav ul li ul li>a {
-        padding-left: 40px;
-    }
-    header nav ul li ul li ul li>a {
-        padding-left: 60px;
-    }
+    
     header nav ul li a {
         width: 100%;
     }
@@ -1866,8 +1861,11 @@ nav ul li a i {
     .showHide {
         right: -70%;
     }
-}
-   
+    header nav ul li ul li, header nav ul li ul li a {
+        width: 100%;
+        text-align: left;
+    }
+    
     .hero-data h1 {
         font-size: 6.3rem;
         line-height: 7.3rem;
@@ -1942,7 +1940,7 @@ nav ul li a i {
         font-size: 21px;
     }
     .why_slider .swiper-slide .why_desc p {
-        font-size: 15px;
+        font-size: 14px;
     }
     .why_slider .swiper-slide .why_desc a {
         font-size: 16px;
@@ -2055,7 +2053,35 @@ nav ul li a i {
     .traveller_images p {
         font-size: 14px;
     }
+    #explore .swiper-wrapper {
+        padding: 10px 0px;
+    }
+
+    #explore {
+        margin-top: 120px;
+    } 
+    #why {
+        margin-top: 120px;
+    }
+    #tour {
+        margin-top: 20.4px;
+    }
+
+    #top {
+        margin-top: 120px;
+    }
+    #bottom {
+        margin-top: 120px;
+    }
+    #test {
+        margin-top: 100px;
+    }
+    #subcribe {
+        margin-top: 100px;
+    }
    
-
-
+}
+/* 575-767(Mobile_landscap) */
+@media screen and(max-width:767px){
+    
 }

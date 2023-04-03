@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/fonts.css">
@@ -16,9 +17,10 @@
 
 <body>
 
-    <header id="main-header">
+    <header id="main-header" >
         <div class="container">
 
+            
             <a href="#" class="logo">
                 <img src="./assets/images/Logotraveller.png" alt="">
             </a>
@@ -573,7 +575,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-    <script>
+    <!-- <script>
         window.onscroll = function () {
             console.log(window.scrollY);
             if (window.scrollY > 20) {
@@ -582,7 +584,25 @@
                 document.getElementById("main-header").classList.remove("dark-header")
             }
         }
-    </script>
+    </script> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+        <script>
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                var x = $(this).scrollTop();
+                console.log(x);
+
+                if(x > 112){
+                    $("header").addClass("#main-header");
+                }else{
+                    $("header").removeClass("#main-header");
+                }
+             });
+            });
+        </script>
 
     <script>
         var swiper = new Swiper(".explore_slider", {

@@ -87,14 +87,14 @@ img {
 }
 
 /**************header***********/
-header {
-    /* background-color: grey; */
+#main-header {
+    background-color: rgb(57, 239, 124);
     width: 100%;
     top: 0;
     left: 0;
     position: fixed;
     transition: all 0.5s;
-    z-index: 999;
+    z-index: 9999;
 }
 
 header .container {
@@ -147,10 +147,10 @@ nav ul li a:hover i {
     transform: rotate(90deg);
 }
 
-.dark-header {
+/* .dark-header {
     background-color: #000;
 
-}
+} */
 
 header nav ul li {
     display: inline-block;
